@@ -1,0 +1,47 @@
+input:invalid {
+    border: 2px solid red;
+  }
+  
+  input:valid {
+    border: 2px solid black;
+  }
+
+#light {
+    background-color: lightgray;
+}
+
+#dark {
+    background-color: darkgrey;
+}
+
+#uncheckedSquare {
+    background: url('form-elements-sprite.png') no-repeat -158px -239px;
+	width: 161px;
+	height: 160px;
+}
+
+#checkedSquare {
+    background: url('form-elements-sprite.png') no-repeat -381px -239px;
+	width: 161px;
+	height: 160px;
+}
+
+#uncheckedCircle {
+    background: url('form-elements-sprite.png') no-repeat -582px -242px;
+	width: 167px;
+	height: 166px;
+}
+
+#checkedCircle {
+    background: url('form-elements-sprite.png') no-repeat -812px -242px;
+	width: 168px;
+	height: 166px;
+}
+
+#button {
+    background:rgb(124, 119, 112);
+}
+#button.highlight {
+    background:rgb(58, 63, 58);
+    color: white;
+}
